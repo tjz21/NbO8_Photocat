@@ -1,0 +1,32 @@
+.
+├── data/
+│   ├── PDOS/
+│   │   ├── pristine/
+│   │   │   ├── Cs3NbO8_PDOS.cell
+│   │   │   ├── Cs3NbO8_PDOS.param
+│   │   │   ├── K3NbO8_PDOS.cell
+│   │   │   ├── K3NbO8_PDOS.param
+│   │   │   ├── Rb3NbO8_PDOS.cell
+│   │   │   └── Rb3NbO8_PDOS.param
+│   │   │
+│   │   └── superoxide/
+│   │       ├── Cs3NbO8_PDOS.cell
+│   │       ├── Cs3NbO8_PDOS.param
+│   │       ├── K3NbO8_PDOS.cell
+│   │       ├── K3NbO8_PDOS.param
+│   │       ├── Rb3NbO8_PDOS.cell
+│   │       └── Rb3NbO8_PDOS.param
+│   │
+│   ├── absorption/
+│   │   ├── pristine/
+│   │   └── superoxide/
+│   │   
+│   ├── bandstructure/
+│   │   ├── pristine/
+│   │   └── superoxide/
+│   │       
+│   └── optimization/
+│       ├── pristine/
+│       └── superoxide/
+│           
+

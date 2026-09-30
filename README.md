@@ -2,11 +2,43 @@
 
 <img align="right" src='https://github.com/LinusP217/NbO8_Photocat/blob/main/K3NbO8_PDOS.svg' width = "300" height = "236">
 
-Computational Supporting Information for the publication 'INSERT NAME.'
+Computational supporting information for the manuscript "." Solid-state unit-cell optimizations were carried out in the CASTEP 25.11 software package<sup>1</sup> with the rSCAN XC functional, 850 eV KE cutoff, and 3x3x3 MP k-grid. Optados
 
 ## Contents 📁
 ```        
-FILETREE   
+.
+├── data/
+│   ├── PDOS/
+│   │   ├── pristine/
+│   │   │   ├── Cs3NbO8_PDOS.cell
+│   │   │   ├── Cs3NbO8_PDOS.param
+│   │   │   ├── K3NbO8_PDOS.cell
+│   │   │   ├── K3NbO8_PDOS.param
+│   │   │   ├── Rb3NbO8_PDOS.cell
+│   │   │   └── Rb3NbO8_PDOS.param
+│   │   │
+│   │   └── superoxide/
+│   │       ├── Cs3NbO8_PDOS.cell
+│   │       ├── Cs3NbO8_PDOS.param
+│   │       ├── K3NbO8_PDOS.cell
+│   │       ├── K3NbO8_PDOS.param
+│   │       ├── Rb3NbO8_PDOS.cell
+│   │       └── Rb3NbO8_PDOS.param
+│   │
+│   ├── absorption/
+│   │   ├── pristine/
+│   │   └── superoxide/
+│   │   
+│   ├── bandstructure/
+│   │   ├── pristine/
+│   │   └── superoxide/
+│   │       
+│   └── optimization/
+│       ├── pristine/
+│       └── superoxide/
+│           
+
+
 ```        
 ### Usage 💻
 Make a copy of the entire repo with the following command in a terminal:
@@ -30,3 +62,6 @@ GitHub repository maintained by Tim J. Zuehlsdorff, tim.zuehlsdorff@oregonstate.
 
 [![CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 button][cc-zero-png]][cc-zero]
+
+
+
