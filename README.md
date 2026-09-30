@@ -2,7 +2,7 @@
 
 <img align="right" src='https://github.com/LinusP217/NbO8_Photocat/blob/main/K3NbO8_PDOS.svg' width = "300" height = "236">
 
-Computational supporting information for the manuscript "." Solid-state unit-cell optimizations were carried out in the CASTEP 25.11 software package<sup>1</sup> with the rSCAN XC functional, 850 eV KE cutoff, and 3x3x3 MP k-grid. Optados
+Computational supporting information for the manuscript "." Solid-state unit-cell optimizations were carried out in the CASTEP 25.11 software package<sup>1</sup> with the rSCAN XC functional, 850 eV KE cutoff, 3x3x3 MP k-grid, and a 2 eV Hubbard U correction applied to Nb(*d*) and O(*p*) orbitals. A denser 6x6x6 k-grid was used for calculating optical properties in Optados v1.2.380<sup>2</sup>.
 
 ## Contents 📁
 ```        
@@ -40,7 +40,7 @@ Computational supporting information for the manuscript "." Solid-state unit-cel
 
 
 ```        
-### Usage 💻
+## Usage 💻
 Make a copy of the entire repo with the following command in a terminal:
 ```bash
 git clone https://github.com/tjz21/NbO8_Photocat.git
